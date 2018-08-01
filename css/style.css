@@ -9,7 +9,7 @@
 
 body {
 	background: #F3EBE9;
-	color: #9aaca6;
+	color: #98ada6;
 	font-size: 100%;
 	font-family: 'Baskerville', serif; 
 }
@@ -24,7 +24,11 @@ body {
 /*////////// Images //////////*/
 
 .use-border {
-	border: 4px solid #9aaca6;
+	border: 4px solid #98ada6;
+}
+
+div img {
+	width: 100%;
 }
 
 /*////////// Text //////////*/
@@ -35,3 +39,16 @@ p {
 
 /*////////// Layout //////////*/
 
+* {
+	box-sizing: border-box;
+}
+
+.col {
+	float: left;
+	margin-left: 0.5%;
+	width: 24.5%;
+}
+
+.first {
+	margin-left: 0;
+}
